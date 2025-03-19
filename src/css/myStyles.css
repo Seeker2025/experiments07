@@ -31,9 +31,9 @@ main {
 .is-visible{
     display: block;
 }
-.press{
+.hide{
     visibility: hidden;
 }
-.press-js{
-visibility: visible;
+.box_press{
+    color: #ffffff;
 }
