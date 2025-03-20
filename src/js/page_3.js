@@ -1,3 +1,5 @@
+//////setTimeout
+
 const NOTIFICATION_DELAY = 3000;
 let timeoutId = null;
 
@@ -6,10 +8,8 @@ const refs = {
     press: document.querySelector('.box_press'),
     text: document.querySelector('.box_will'),
 };
-
 // refs.text.classList.add('hide');
 // refs.press.classList.add('hide');
-//  refs.text.classList.add('hide');
 // hideNotification();
 showNotification();
  console.log(timeoutId);
@@ -39,13 +39,10 @@ function showNotification() {
         refs.press.classList.remove('hide');
         refs.text.classList.add('hide');
     }, NOTIFICATION_DELAY);
-    
 }
-
 function hideNotification() {
     refs.notification.classList.remove('is-visible');
 }
-
 document.addEventListener('keydown', (evt) => {
     if (evt.code === 'KeyH') {
         console.log('KeyH');
