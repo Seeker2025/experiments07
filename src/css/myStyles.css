@@ -43,3 +43,20 @@ main {
 .box_press{
     color: #ffffff;
 }
+/* Timer */
+.timer-btn{
+    background-color: #0068f9;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    border: 1px solid #fafafb;
+    border-radius: 7px;
+    margin-top: 10px;
+
+}
+.clockface{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3b3b3b;
+    margin-top: 10px;
+}
