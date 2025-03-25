@@ -18,7 +18,7 @@ main {
 }
 .box02{
     background-color: rgb(229, 94, 41);
-    width: 100px;
+    width: 235px;
     height: 100px;
 }
 
@@ -57,6 +57,6 @@ main {
 .clockface{
     font-size: 24px;
     font-weight: bold;
-    color: #3b3b3b;
+    color: #ffffff;
     margin-top: 10px;
 }
