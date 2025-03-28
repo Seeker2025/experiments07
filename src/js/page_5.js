@@ -39,3 +39,27 @@ const mango = new User({
 });
 // console.log(mango); // { name: "Mango", email: "mango@mail.com", funTree: ƒ }
 // mango.funTree(); // Whoa!
+
+
+
+
+
+
+
+class People{
+    constructor({ name, age, fun }) {
+        this.name = name;
+        this.age = age;
+        this.fun = fun;
+        
+    }
+}
+const people = new People({
+    name: 'Ivan',
+    age: 25,
+    fun() {
+        console.log('Hello!');
+    }
+});
+console.log(people.name);
+people.fun();
